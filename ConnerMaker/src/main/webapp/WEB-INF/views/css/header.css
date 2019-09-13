@@ -5,6 +5,34 @@
 	font-weight: normal;
 	font-style: normal;
 	}
+@font-face {
+	font-family: 'SunBatang-Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal; }
+
+body, input, button, select, table, textarea {
+	font-family:'맑은 고딕','malgun gothic','돋움',dotum,sans-serif;
+	font-size:1rem;
+	}
+body {
+	min-width:900px;
+	background:url(../images/bg.png) fixed;
+	}
+	
+/* 공통 그리드 */
+.wrapper {
+	display: grid;
+	grid-template-rows:100px 1fr;
+	grid-template-columns:1fr;
+	grid-template-areas:
+	"grid_header"
+	"grid_content_wrapper"
+}
+
+.content_wrapper{
+	grid-area: grid_content_wrapper;
+}
 
 /*헤더 */
 #header{
