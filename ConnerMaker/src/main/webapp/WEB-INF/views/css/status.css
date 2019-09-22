@@ -44,7 +44,7 @@
 }
 
 /* 인벤토리창 */
-#inventory > table{
+#inventory table{
 	margin:10px 0;
 	background-color: #361717;
 }

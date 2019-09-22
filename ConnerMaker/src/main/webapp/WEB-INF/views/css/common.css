@@ -1,5 +1,15 @@
 @charset "utf-8";
-
+@font-face {	/*빙그레 웹폰트*/
+	font-family: 'Binggrae-Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face { /*순바탕 볼드*/
+	font-family: 'SunBatang-Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal; }
 /*에릭마이어 reset css*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,3 +64,4 @@ a {text-decoration:none;}
 
 /*legend를 포지션으로 띄워 위로 보내서 안보이게 함*/
 legend {position:absolute; top:-9999px;}
+
