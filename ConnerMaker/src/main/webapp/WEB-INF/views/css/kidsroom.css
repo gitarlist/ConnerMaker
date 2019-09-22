@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* 아이방 내용 랩 */
+#kidsroom {
+	width: 1200px;
+	margin: 50px auto;
+	position: relative;
+	display: grid;
+	grid-template-columns:1fr 350px 1fr;
+	grid-template-areas:
+	"grid_kidsroom_left grid_kidsroom_center grid_kidsroom_right"
+}
+
+/* 스탯창 배열 그리드*/
+.kidsroom_left {
+	grid-area: grid_kidsroom_left;
+	border: 2px solid red;
+}
+.kidsroom_center {
+	grid-area: grid_kidsroom_center;
+	border: 2px solid red;
+}
+.kidsroom_right {
+	grid-area: grid_kidsroom_right;
+	border: 2px solid red;
+}
+
+/*아이방 왼쪽 프로필 테이블*/
+.kidsroom_table {
+	width:80%;
+	margin: 0 auto;
+}
+
+.kidsroom_table td{
+	padding:10px 0 10px 20px;
+}
+
+/*아이방 왼쪽 아래 친구들에 대하여*/
+.about_friends {
+	magin:0 auto;
+}
