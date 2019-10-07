@@ -2,16 +2,13 @@
 
 /* 아이방 내용 랩 */
 #kidsroom {
-	width: 1200px;
-	margin: 50px auto;
-	position: relative;
 	display: grid;
 	grid-template-columns:1fr 300px 1.2fr;
 	grid-template-areas:
 	"grid_kidsroom_left grid_kidsroom_center grid_kidsroom_right"
 }
 
-/* 스탯창 배열 그리드*/
+/* 아이방 배열 그리드*/
 .kidsroom_left {
 	grid-area: grid_kidsroom_left;
 	padding-right:50px;
@@ -35,12 +32,6 @@
 	background: #5b0e00;
 	padding:17px 0 17px 20px;
 	border: 5px ridge #b37d62;
-}
-
-/* div 기본*/
-.basic_div {
-	background: #5b0e00;
-	border: 5px ridge #b37d62;	
 }
 
 /*아이방 왼쪽 아래 친구들에 대하여*/
@@ -80,13 +71,8 @@
 #kidsroom_name {
 	margin-top:20px;
 	height:50px;
-}
-
-#kidsroom_name p {
+	line-height:50px;
 	text-align:center;
-	color: #e7bcbc;
-	font:1.5rem "SunBatang-Bold";
-	line-height: 50px;	
 }
 
 /*아이방 오른쪽*/

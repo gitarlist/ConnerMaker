@@ -28,7 +28,7 @@
 	String kidStandingUrl = standingDir + age + "_" + clothes + "_" + condition + ".png";
 %>
 <!-- 메뉴&내용 레이아웃 배치용 전체 그리드 -->
-<div class="wrapper">
+<div class="wrapper" class="basic_mainWrap">
 	<%@ include file="../header.jsp" %>
 	<!-- 내용 그리드 -->
 	<div class="content_wrapper">

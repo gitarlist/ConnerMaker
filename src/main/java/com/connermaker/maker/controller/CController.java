@@ -47,5 +47,15 @@ public class CController {
 	public String statusPageC4() {
 		return "/status/c4";
 	}
+	
+	/*마을*/
+	@RequestMapping(value = "/town")
+	public String townPage() {
+		return "/town/town_main";
+	}
+	@RequestMapping(value="/clothshop")
+	public String townPage1() {
+		return "/town/town_clothes";
+	}
 
 }//class end

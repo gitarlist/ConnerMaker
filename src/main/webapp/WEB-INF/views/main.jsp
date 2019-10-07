@@ -17,28 +17,31 @@
 	<!-- 내용 그리드 -->
 	<div class="content_wrapper">
 	<!-- 사이드바&달력 레이아웃 배치용 전체 그리드-->
-	<div id="mainpage"> 
+	<div id="mainpage" class="basic_mainWrap"> 
 		<!-- 사이드바 그리드 & 사이드바 -->
 		<div class="sidebar">
 			<!-- 사이드바 날짜 -->
 			<div id="today">
 				<table class="sidebar_table">
-					<tr><th class="sidebar_table sidebar_table_header">10세</th></tr>
-					<tr><td class="no_padding">
-						<table class="today_table">
-							<tr><td>여름</td>
-								<td rowspan="2" id="today_week">Mon</td></tr>
-							<tr><td>상반기</td></tr>
-						</table>
-					</td></tr>
-					<tr><td colspan="2" class="today_footer"></td></tr>
+					<tr>
+						<th class="sidebar_table"><span class="basic_span">10세</span></th>
+					</tr>
+					<tr>
+						<td class="no_padding">
+							<table class="today_table">
+								<tr><td>여름</td>
+									<td rowspan="2"><span class="basic_span">Mon</span></td></tr>
+								<tr><td>상반기</td></tr>
+							</table>
+						</td>
+					</tr>
 				</table>
 			</div><!-- END #today -->
 			<!-- 사이드바 로그인 -->
 			<div id="login">
 				<form action="#" method="get">
 				<table class="sidebar_table">
-					<tr><th colspan="2" class="sidebar_table sidebar_table_header">Login</th></tr>
+					<tr><th colspan="2" class="sidebar_table"><span class="basic_span">Login</span></th></tr>
 					<tr><td class="login_name">ID</td>
 						<td><input type="text" name="userId" size="12" /></td></tr>
 					<tr><td class="login_name">PW</td>

@@ -25,7 +25,7 @@
 	<!-- 내용 그리드 -->
 	<div class="content_wrapper">
 	<!-- 아이방 전채 랩 -->
-	<div id="kidsroom">
+	<div id="kidsroom" class="basic_mainWrap">
 		<!-- 내용그리드>왼쪽 박스 -->
 		<div class="kidsroom_left">
 			<!-- 프로필 테이블 -->
@@ -73,7 +73,7 @@
 			</div>
 			<!-- 아이 이름 -->
 			<div class="basic_div" id="kidsroom_name">
-				<p>에 단&nbsp;&nbsp;코 너</p>
+				<span class="basic_span">에 단&nbsp;&nbsp;코 너</span>
 			</div>
 		</div>
 		<!-- 내용그리드>오른쪽 박스 -->

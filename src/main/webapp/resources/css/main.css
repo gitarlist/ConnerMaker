@@ -18,23 +18,18 @@
 }
 
 /* 왼쪽 사이드바 테이블 공통 */
-#mainpage .sidebar .sidebar_table{
+#mainpage .sidebar .sidebar_table {
 	width:100%;
 	border: 5px ridge #a15a43;
 	padding: 5px;
 }
 
-#mainpage .sidebar .sidebar_table_header{
-	color:#f7c9b5;
-	font-size: 1.5rem;	
-	font-family: 'Binggrae-Bold';
+#mainpage .sidebar .sidebar_table th{
 	background-color: #441511;
 }
 
-#mainpage .sidebar table th,td{
-	padding: 5px 10px 0px;
-	color:#f7c9b5;
-	font-size: 1rem;	
+#mainpage .sidebar table td{
+	color:#f7c9b5;	
 	font-family: 'SunBatang-Bold';
 	text-align:center;
 	vertical-align:middle;
@@ -54,17 +49,12 @@
 
 #today_week {
 	letter-spacing:-0.1em;
-	font-size:2rem;
+	font-size:4rem;
 }
-
-#today .no_padding {
-	padding:0px;
-	border-right: 5px ridge #a15a43;
-}
-
 #today .today_table{
 	width:100%;
 	margin:0px 10px 0px 0px;
+	padding:0px;
 }
 
 #today .today_table td{

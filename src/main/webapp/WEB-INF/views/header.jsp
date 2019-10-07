@@ -39,7 +39,7 @@
 	                </ul>
 	            </li>
 	        	<li>
-	            	<a href="#"><h1>마을</h1></a>
+	            	<a href="town"><h1>마을</h1></a>
 	                <ul class="depth2 gnb4">
 	                	<li><a href="#">의상점</a></li>
 	                	<li><a href="#">악세사리점</a></li>

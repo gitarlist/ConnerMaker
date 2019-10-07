@@ -33,7 +33,7 @@
 	<!-- 내용 그리드 -->
 	<div class="content_wrapper">
 	<!-- 스테이터스 내용 -->
-	<div id="statuspage">
+	<div id="statuspage" class="basic_mainWrap">
 		<!-- 아이방 배경 -->
 		<div id="statuspage_kidsroom" style="background-image:url('<%=roomUrl%>');">
 			<img id="kidStanding" src="<%=kidStandingUrl%>" alt="에드워드">
